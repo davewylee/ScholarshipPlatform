@@ -17,7 +17,7 @@ public class EmailService {
     public static void sendVerificationCode(String toEmail, String verificationCode) throws MessagingException {
     	
     	final String username = "scholarshipplatforminfo@gmail.com";
-        final String password = "knvvsrrpmbnhxevv";
+        final String password = System.getenv("MY_PASSWORD");
 
         
         // Gmail smtp 設置        
