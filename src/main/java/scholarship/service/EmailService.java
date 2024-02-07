@@ -15,7 +15,7 @@ import scholarship.util.RandomNumberGenerator;
 public class EmailService {
 	
     public static void sendVerificationCode(String toEmail, String verificationCode) throws MessagingException {
-    	
+    	// TEST mail account
     	final String username = "scholarshipplatforminfo@gmail.com";
         final String password = "knvvsrrpmbnhxevv";
 
